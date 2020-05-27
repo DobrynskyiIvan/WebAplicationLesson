@@ -11,15 +11,15 @@ namespace WebApplication.Models
 
 
         [Required]
-        [Display(Name = "Логин")]
+        [Display(Name = "Login")]
         public string UserName { get; set; }
 
         [Required]
         [UIHint("password")]
-        [Display(Name = "Пароль")]
+        [Display(Name = "Password")]
         public string Password { get; set; }
 
-        [Display(Name = "Запомнить меня?")]
+        [Display(Name = "Remember me?")]
         public bool RememberMe { get; set; }
     }
 }
